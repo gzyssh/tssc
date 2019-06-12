@@ -57,7 +57,7 @@ public class CodeGenerator {
         strategy.setEntityBooleanColumnRemoveIsPrefix(true);
         strategy.setRestControllerStyle(true);
         strategy.setSuperControllerClass("");
-//        strategy.setInclude("t_admin");
+        strategy.setInclude("t_admin");
         strategy.setSuperEntityColumns("id");
         strategy.setControllerMappingHyphenStyle(true);
         strategy.setTablePrefix(pc.getModuleName() + "_");
