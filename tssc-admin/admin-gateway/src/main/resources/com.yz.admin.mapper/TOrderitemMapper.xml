@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yz.admin.mapper.TOrderitemMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.yz.admin.entity.TOrderitem">
+        <id column="ot_id" property="otId" />
+        <result column="quantity" property="quantity" />
+        <result column="subtotal" property="subtotal" />
+        <result column="bid" property="bid" />
+        <result column="bname" property="bname" />
+        <result column="curr_price" property="currPrice" />
+        <result column="image_b" property="imageB" />
+        <result column="oid" property="oid" />
+    </resultMap>
+
+</mapper>
