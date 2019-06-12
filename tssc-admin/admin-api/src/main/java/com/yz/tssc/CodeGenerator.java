@@ -21,7 +21,7 @@ public class CodeGenerator {
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
         gc.setOutputDir("F:\\code");
-        gc.setAuthor("guozy");
+        gc.setAuthor("郭忠义");
         gc.setOpen(true);
         gc.setServiceImplName("%sServiceImpl");
         gc.setFileOverride(true);
@@ -49,14 +49,14 @@ public class CodeGenerator {
         // 策略配置
         StrategyConfig strategy = new StrategyConfig();
         strategy.setCapitalMode(true);
-        strategy.setSuperServiceClass("com.yz.admin.service.IBaseService");
+        strategy.setSuperServiceClass("");
         strategy.setNaming(NamingStrategy.underline_to_camel);
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
         strategy.setEntityTableFieldAnnotationEnable(true);
         strategy.setEntityLombokModel(true);
         strategy.setEntityBooleanColumnRemoveIsPrefix(true);
         strategy.setRestControllerStyle(true);
-        strategy.setSuperControllerClass("com.yz.admin.controller.BaseController");
+        strategy.setSuperControllerClass("");
 //        strategy.setInclude("t_admin");
         strategy.setSuperEntityColumns("id");
         strategy.setControllerMappingHyphenStyle(true);

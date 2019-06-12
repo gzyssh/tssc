@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yz.admin.mapper.TBookMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.yz.tssc.eneity.TBook">
+        <id column="bid" property="bid" />
+        <result column="bname" property="bname" />
+        <result column="author" property="author" />
+        <result column="price" property="price" />
+        <result column="curr_price" property="currPrice" />
+        <result column="discount" property="discount" />
+        <result column="press" property="press" />
+        <result column="publish_time" property="publishTime" />
+        <result column="edition" property="edition" />
+        <result column="page_num" property="pageNum" />
+        <result column="word_num" property="wordNum" />
+        <result column="print_time" property="printTime" />
+        <result column="booksize" property="booksize" />
+        <result column="paper" property="paper" />
+        <result column="cid" property="cid" />
+        <result column="image_w" property="imageW" />
+        <result column="image_b" property="imageB" />
+        <result column="create_time" property="createTime" />
+        <result column="creater" property="creater" />
+    </resultMap>
+
+</mapper>
