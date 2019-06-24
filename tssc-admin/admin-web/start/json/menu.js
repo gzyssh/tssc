@@ -6,7 +6,7 @@
     ,"icon": "layui-icon-home"
     ,"list": [{
         "title": "图书列表"
-        ,"jump": "book/index"
+        ,"jump": "book/list"
     }, {
         "title": "分类管理"
         ,"jump": "category/index"
